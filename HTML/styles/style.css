@@ -5,9 +5,19 @@ h3 {
     font-weight: 400;
 }
 
+
 body {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+}
+
+.recipe-container {
+    align-content: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
 }
 
 strong,
@@ -20,25 +30,31 @@ li::marker {
 }
 
 .styled-table {
-        width: 100%;
-        border-collapse: collapse;
-        text-align: left;       
-    }
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
 
-    .styled-table td {
-        padding: 10px;
-        border-bottom: 1px solid #ddd;
-    }
+.styled-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
 
-    .styled-table tr:last-child td {
-        border-bottom: none;
-    }
+.styled-table tr:last-child td {
+    border-bottom: none;
+}
 
-    .styled-table td:first-child {
-        width: 2%;
-    }
+.styled-table td:first-child {
+    width: 2%;
+}
 
-    .styled-table td:last-child {
-        font-weight: 600;
-        color: hsl(332, 51%, 32%);
-    }
+.styled-table td:last-child {
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
