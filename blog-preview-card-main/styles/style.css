@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap');
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 1px rgba(0, 0, 0, 1);
+    max-width: 280px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 16px 16px 1px rgba(0, 0, 0, 1);
+    transform: translate(-8px, -8px);
+}
+
+.card-image {
+    margin-bottom: 24px;
+}
+
+.card-image img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h1 {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin: 0 0 12px 0;
+}
+
+.card p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin: 12px 0;
+}
+
+.card .description {
+    color: hsl(0, 0%, 50%);
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin: 12px 0;
+}
+
+.card strong {
+    color: hsl(0, 0%, 7%);
+    font-size: 19px;
+    font-weight: 800;
+    display: block;
+    margin: 12px 0;
+    line-height: 1.3;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.card strong:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.dp {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 7%);
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
